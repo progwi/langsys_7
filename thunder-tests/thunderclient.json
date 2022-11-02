@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "6d666cbd-becf-478d-a8b6-201189eb95a6",
+    "colId": "1e9e1e1e-46df-4387-acbb-1449683ec671",
+    "containerId": "",
+    "name": "getAll",
+    "url": "http://localhost:8080/users/3",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-11-02T15:42:05.814Z",
+    "modified": "2022-11-02T17:45:30.123Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f39bab68-b128-46e8-9480-7cf0ecdb21fb",
+    "colId": "1e9e1e1e-46df-4387-acbb-1449683ec671",
+    "containerId": "",
+    "name": "create",
+    "url": "http://localhost:8080/users",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-11-02T17:45:43.181Z",
+    "modified": "2022-11-02T17:59:32.548Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"test_user\",\n  \"email\": \"test_user@mail.com\",\n  \"password\": \"123\",\n  \"roles\": [\n    2,\n    3\n  ],\n  \"person\": {\n    \"firstName\": \"Test\",\n    \"lastName\": \"User\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
